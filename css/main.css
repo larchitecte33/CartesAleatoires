@@ -1,0 +1,35 @@
+
+body {
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 980px;
+}
+.card {
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.card2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.centre {
+  text-align: center;
+}
+
+.bouton-centre {
+  display: block;
+  margin: auto;
+}
